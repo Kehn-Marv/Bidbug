@@ -44,7 +44,7 @@ Bidbug has been evaluated relentlessly in isolated local replays of the hostile 
 
 In a heavily fault-injected run, Bidbug completed the full 60-round scenario with 128 injected faults, remaining valid for all 53 rounds in which it was active and scoring `17.693` with 0 missed rounds, 0 floor violations, and κ = `0.00`.
 
-![Bidbug fault-injected graded run](docs/Bidbug heavily faulted.png‎)
+![Bidbug fault-injected graded run](docs/bidbug-heavily-faulted.png)
 
 *Figure 1 — Fault-injected graded replay: 128 injected faults, 53 active rounds, 17.693 score, 0 missed rounds, 0 floor violations, κ = 0.00.*
 
