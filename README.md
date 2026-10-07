@@ -42,7 +42,11 @@ Bidbug has been evaluated relentlessly in isolated local replays of the hostile 
 - **Floor Violations:** `0`
 - **Kappa penalties:** `0.00`
 
-Even in heavily faulted runs where the simulator injected massive 503/429 errors, the agent successfully navigated every eligible round without crashing (scoring `17.693` on 53 active rounds).
+In a heavily fault-injected run, Bidbug completed the full 60-round scenario with 128 injected faults, remaining valid for all 53 rounds in which it was active and scoring `17.693` with 0 missed rounds, 0 floor violations, and κ = `0.00`.
+
+![Bidbug fault-injected graded run](docs/Bidbug heavily faulted.png‎)
+
+*Figure 1 — Fault-injected graded replay: 128 injected faults, 53 active rounds, 17.693 score, 0 missed rounds, 0 floor violations, κ = 0.00.*
 
 **Conformance Test (`make check`):**
 - **Functional:** 30.0 / 30
